@@ -4,7 +4,8 @@ functionalities made with:
   - React
   - mathJS
   - CSS
-  - Html
+  - HTML
+  - Javscript
 
 How the app works:
 view full code at [CODEPEN](https://codepen.io/opalkm/pen/PoGwmWa)
