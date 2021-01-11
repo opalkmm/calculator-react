@@ -1,0 +1,76 @@
+body{
+ background: url("https://s2.favim.com/orig/150121/art-background-backgrounds-colorido-Favim.com-2404442.jpg");
+ background-size: cover;
+}
+.app{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+ 
+}
+.wrapper{
+width: 400px;
+height: 600px;
+}
+
+.row{
+  display: flex;
+  width: 100%;  
+}
+
+.button-wrapper{
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.4em;
+  background-color: #FB9DA7 ;
+  color: white;
+  flex: 1;
+  outline: 1px solid gray;
+  opacity: 0.8;
+  transition: 0.3s;
+  
+}
+
+.button-wrapper:hover{opacity: 1}
+
+.operator{
+  background: white;
+  color: black;
+  outline: 1px solid gray;
+}
+
+.display{
+  height: 4em;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.4em;
+  background-color: floralwhite;
+  color: darkgray;
+  padding: 0.5em;
+  outline: 1px solid gray;
+  
+}
+
+.clear-button{
+  height: 4em;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-weight: lighter;
+  font-size: 1.4em;
+  background-color: lightslategray;
+  color: white;
+  outline: 1px solid gray;
+  opacity: 0.7;
+}
+.clear-button:hover{opacity: 1}
